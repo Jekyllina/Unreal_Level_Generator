@@ -1,2 +1,2 @@
 # Unreal_Level_Generator
- Plugin for generating a level from a texture
+ Plugin to create a level starting from a texture
