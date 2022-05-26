@@ -1,0 +1,21 @@
+C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Definitions.LevelCreatorPugin.h
+C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Public\LevelCreatorPugin.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\ImageUtils.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Editor\UnrealEd\Classes\Factories/WorldFactory.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\WorldFactory.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/SkyLight.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Info.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Info.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkyLight.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/DirectionalLight.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/Light.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Light.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DirectionalLight.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/StaticMeshActor.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshActor.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h

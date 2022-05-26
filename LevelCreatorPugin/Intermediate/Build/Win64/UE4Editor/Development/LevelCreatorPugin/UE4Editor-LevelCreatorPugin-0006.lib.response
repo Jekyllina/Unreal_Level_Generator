@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LevelCreatorPugin-0006.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Diana\Documents\GitHub\lezionigeotech\Intermediate\Build\Win64\LezioneGeotechEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"C:\Users\Diana\Documents\GitHub\lezionigeotech\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\LevelCreatorPugin.cpp.obj"
+"C:\Users\Diana\Documents\GitHub\lezionigeotech\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Default.rc2.res"
+/OUT:"C:\Users\Diana\Documents\GitHub\lezionigeotech\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\UE4Editor-LevelCreatorPugin-0006.lib"
+/INCLUDE:IMPLEMENT_MODULE_LevelCreatorPugin

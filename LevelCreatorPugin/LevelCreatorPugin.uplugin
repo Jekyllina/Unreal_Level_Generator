@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LevelCreatorPugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Diana Sternini",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LevelCreatorPugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
