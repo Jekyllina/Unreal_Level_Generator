@@ -1,5 +1,5 @@
 # Unreal_Level_Generator
- Plugin to create a level starting from a texture
+ Plugin for creating a level starting from a texture
 
 https://www.youtube.com/watch?v=tbh4DX4zomA
 
@@ -9,4 +9,4 @@ https://www.youtube.com/watch?v=tbh4DX4zomA
 - The texture must be in the Content director, if not it will appear a Warning that warns that the texture was not found
 - You can spawn two differents type of walls, in this example the black pixels in the texture are the green walls and the red pixels the grey walls
 - The floor scale depends on the size of the texture
-- All the light are istantiated by code and ordered in the Lighting folder
+- All the lights are istantiated by code and ordered in the Lighting folder
