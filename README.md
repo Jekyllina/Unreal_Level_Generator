@@ -10,6 +10,3 @@ https://www.youtube.com/watch?v=tbh4DX4zomA
 - You can spawn two differents type of walls, in this example the black pixels in the texture are the green walls and the red pixels the grey walls
 - The floor scale depends on the size of the texture
 - All the lights are istantiated by code and ordered in the Lighting folder
-
- Texture example:
- ![Level2](https://user-images.githubusercontent.com/48209077/172736662-22023218-42a1-429a-9433-8467b2dc4176.png)
