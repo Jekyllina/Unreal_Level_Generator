@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Private
+/I "C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -231,8 +231,10 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Source
-/I C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Public
+/I Editor\WorkspaceMenuStructure\Public
+/I Editor\EditorWidgets\Public
+/I "C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Source"
+/I "C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,12 +264,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Intermediate\Build\Win64\BombermanEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Yu"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Intermediate\Build\Win64\BombermanEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Intermediate\Build\Win64\BombermanEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Private\LevelCreatorPugin.cpp"
-/FI"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Definitions.LevelCreatorPugin.h"
-/Fo"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\LevelCreatorPugin.cpp.obj"
+/FI"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Intermediate\Build\Win64\Level_GeneratorEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Intermediate\Build\Win64\Level_GeneratorEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Intermediate\Build\Win64\Level_GeneratorEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Source\LevelCreatorPugin\Private\LevelCreatorPugin.cpp"
+/FI"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Definitions.LevelCreatorPugin.h"
+/Fo"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\LevelCreatorPugin.cpp.obj"
 /TP
 /GR-
 /W4

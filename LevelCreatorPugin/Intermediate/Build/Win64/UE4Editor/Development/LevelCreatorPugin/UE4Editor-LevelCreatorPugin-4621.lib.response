@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-LevelCreatorPugin-4621.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Diana\Documents\Unreal Projects\Bomberman_Unreal\Intermediate\Build\Win64\BombermanEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"C:\Users\Diana\Documents\Unreal Projects\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Module.LevelCreatorPugin.cpp.obj"
+"C:\Users\Diana\Documents\Unreal Projects\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Default.rc2.res"
+/OUT:"C:\Users\Diana\Documents\Unreal Projects\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\UE4Editor-LevelCreatorPugin-4621.lib"
+/INCLUDE:IMPLEMENT_MODULE_LevelCreatorPugin

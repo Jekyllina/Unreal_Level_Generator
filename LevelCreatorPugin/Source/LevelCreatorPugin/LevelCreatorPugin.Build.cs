@@ -40,6 +40,9 @@ public class LevelCreatorPugin : ModuleRules
 				"SlateCore",
 				"UnrealEd",
 				"AssetRegistry",
+				"WorkspaceMenuStructure",
+				"EditorWidgets",
+				"PropertyEditor",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

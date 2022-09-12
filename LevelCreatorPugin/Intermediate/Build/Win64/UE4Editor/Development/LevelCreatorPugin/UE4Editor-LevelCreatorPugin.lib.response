@@ -6,8 +6,8 @@
 /NAME:"UE4Editor-LevelCreatorPugin.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Intermediate\Build\Win64\BombermanEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
-"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\LevelCreatorPugin.cpp.obj"
-"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Default.rc2.res"
-/OUT:"C:\Users\Diana\Documents\GitHub\Bomberman_Unreal\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\UE4Editor-LevelCreatorPugin.lib"
+"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Intermediate\Build\Win64\Level_GeneratorEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\LevelCreatorPugin.cpp.obj"
+"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\Default.rc2.res"
+/OUT:"C:\Users\Diana\Documents\Unreal Projects\Level_Generator\Plugins\LevelCreatorPugin\Intermediate\Build\Win64\UE4Editor\Development\LevelCreatorPugin\UE4Editor-LevelCreatorPugin.lib"
 /INCLUDE:IMPLEMENT_MODULE_LevelCreatorPugin

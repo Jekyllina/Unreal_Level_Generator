@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FLevelCreatorPuginModule : public IModuleInterface, public FSelfRegisteringExec
+class FLevelCreatorPuginModule : public IModuleInterface
 {
 public:
 
@@ -13,5 +13,18 @@ public:
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 
-	virtual bool Exec(UWorld* InWorld, const TCHAR* Cmd, FOutputDevice& Ar) override;
+	TSharedRef<SDockTab> CreateTab(const FSpawnTabArgs& TabArgs);
+	void TextCommitted(const FText& InText, ETextCommit::Type InCommitType);
+	FReply ButtonClicked();
+
+	void GenerateWorld();
+
+	FAssetData WallPath;
+	FAssetData BreakableWallPath;
+	FAssetData Texture;
+	TSharedPtr<FAssetThumbnailPool> MyThumbnailPool;
+	FName BrushName;
+	FString LevelName;
+	FString WallPathdefault;
+	FString BreakableWallPathdefault;
 };
