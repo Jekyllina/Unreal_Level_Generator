@@ -168,9 +168,14 @@ void FLevelCreatorPuginModule::GenerateWorld()
 TSharedRef<SDockTab> FLevelCreatorPuginModule::CreateTab(const FSpawnTabArgs& TabArgs)
 {
 	MyThumbnailPool = MakeShareable(new FAssetThumbnailPool(3, false));
+	
+	if (DefaultText.IsEmpty())
+	{
+		DefaultText = "Insert_name_here";
+	}
 
-	FString ImagePath = FString::Printf(TEXT("/LevelCreatorPugin/Icon128.Icon128"));
-	BrushName = FName(*ImagePath);
+	/*FString ImagePath = FString::Printf(TEXT("/LevelCreatorPugin/Icon128.Icon128"));
+	BrushName = FName(*ImagePath);*/
 
 	return SNew(SDockTab).TabRole(ETabRole::NomadTab)
 		[
@@ -251,7 +256,7 @@ TSharedRef<SDockTab> FLevelCreatorPuginModule::CreateTab(const FSpawnTabArgs& Ta
 				]
 				+ SHorizontalBox::Slot().Padding(15, 0)
 				[
-					SNew(SEditableTextBox).Text(LOCTEXT("LevelName", "Insert_name_here"))
+					SNew(SEditableTextBox).Text_Raw(this, &FLevelCreatorPuginModule::GetText)
 					.OnTextCommitted_Raw(this, &FLevelCreatorPuginModule::TextCommitted)
 				]				
 			]
@@ -266,6 +271,11 @@ TSharedRef<SDockTab> FLevelCreatorPuginModule::CreateTab(const FSpawnTabArgs& Ta
 				]
 			]
 		];
+}
+
+FText FLevelCreatorPuginModule::GetText() const
+{
+	return FText::FromString(DefaultText);
 }
 
 void FLevelCreatorPuginModule::TextCommitted(const FText& InText, ETextCommit::Type InCommitType)
@@ -343,7 +353,9 @@ FReply FLevelCreatorPuginModule::ButtonClicked()
 		WallPathdefault = WallPath.GetAsset()->GetPathName();
 		BreakableWallPathdefault = BreakableWallPath.GetAsset()->GetPathName();
 		FLevelCreatorPuginModule::GenerateWorld();
-	}
+	}	
+
+	DefaultText = LevelName;
 
 	return FReply::Handled();
 }

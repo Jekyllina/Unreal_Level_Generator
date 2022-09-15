@@ -14,6 +14,7 @@ public:
 	virtual void ShutdownModule() override;
 
 	TSharedRef<SDockTab> CreateTab(const FSpawnTabArgs& TabArgs);
+	FText GetText() const;
 	void TextCommitted(const FText& InText, ETextCommit::Type InCommitType);
 	FReply ButtonClicked();
 
@@ -25,6 +26,7 @@ public:
 	TSharedPtr<FAssetThumbnailPool> MyThumbnailPool;
 	FName BrushName;
 	FString LevelName;
+	FString DefaultText;
 	FString WallPathdefault;
 	FString BreakableWallPathdefault;
 };
