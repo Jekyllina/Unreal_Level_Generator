@@ -17,8 +17,7 @@ When you press Create:
 - if you insert a name with spaces they will be replaced with _ 
 - if you create a level with a name that already exists, _ followed by random numbers will be added to the name
 
+
 You can find the assets in LevelCreatorPlugin Content folder
-
 The plugin already has 2 default walls and 2 textures (Level2 and Level3) 
-
 The levels will be created in the base Content folder
