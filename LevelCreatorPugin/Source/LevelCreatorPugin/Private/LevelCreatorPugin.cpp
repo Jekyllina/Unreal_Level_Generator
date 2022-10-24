@@ -294,7 +294,9 @@ void FLevelCreatorPuginModule::TextCommitted(const FText& InText, ETextCommit::T
 			{
 				LevelName[Index] = '_';
 			}
-		}		
+		}	
+
+		DefaultText = LevelName;
 	}
 }
 
@@ -308,7 +310,9 @@ FReply FLevelCreatorPuginModule::ButtonClicked()
 		if (Answer == EAppReturnType::Yes)
 		{
 			uint64 SuffixName = FPlatformTime::Cycles64();
-			LevelName = FString::Printf(TEXT("Level_%llu"), SuffixName);		
+			LevelName = FString::Printf(TEXT("Level_%llu"), SuffixName);	
+
+			DefaultText = LevelName;
 		}			
 	}
 
@@ -355,9 +359,7 @@ FReply FLevelCreatorPuginModule::ButtonClicked()
 		WallPathdefault = WallPath.GetAsset()->GetPathName();
 		BreakableWallPathdefault = BreakableWallPath.GetAsset()->GetPathName();
 		FLevelCreatorPuginModule::GenerateWorld();
-	}	
-
-	DefaultText = LevelName;
+	}		
 
 	return FReply::Handled();
 }
