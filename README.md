@@ -19,5 +19,7 @@ When you press Create:
 
 
 You can find the assets in LevelCreatorPlugin Content folder
+
 The plugin already has 2 default walls and 2 textures (Level2 and Level3) 
+
 The levels will be created in the base Content folder
