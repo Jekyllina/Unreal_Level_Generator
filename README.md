@@ -1,6 +1,6 @@
 # Unreal_Level_Generator
 -WORK IN PROGRESS-
- Plugin for creating a level starting from a texture
+ Plugin to create a level starting from a texture
 
 https://youtu.be/tor4j-OA_mc
 
