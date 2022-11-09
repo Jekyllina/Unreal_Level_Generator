@@ -333,7 +333,7 @@ FReply FLevelCreatorPuginModule::ButtonClicked()
 		{
 			if (!WallPath.GetAsset()->GetPathName().Compare(TEXT("None")))
 			{
-				WallPathdefault = TEXT("/Game/Wall.Wall");	
+				WallPathdefault = TEXT("/LevelCreatorPugin/Wall.Wall"); 
 				WallPath.ObjectPath = FName(WallPathdefault);
 			}
 			else
@@ -343,7 +343,7 @@ FReply FLevelCreatorPuginModule::ButtonClicked()
 			
 			if (!BreakableWallPath.GetAsset()->GetPathName().Compare(TEXT("None")))
 			{
-				BreakableWallPathdefault = TEXT("/Game/Wall02.Wall02");
+				BreakableWallPathdefault = TEXT("/LevelCreatorPugin/Wall02.Wall02");
 				BreakableWallPath.ObjectPath = FName(BreakableWallPathdefault);
 			}
 			else
